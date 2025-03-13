@@ -70,7 +70,7 @@
   function Game_over() {
     modal.style.display = "flex";
     score.style.display = "none";
-    if (objects[0].score == 50)
+    if (objects[0].score > 50)
       parent.closething();
 
     x = document.querySelector(".game_title");
