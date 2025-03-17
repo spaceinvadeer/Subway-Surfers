@@ -71,7 +71,8 @@
     modal.style.display = "flex";
     score.style.display = "none";
     if (objects[0].score > 50)
-      parent.window.location.href = "/doom.html";
+      var container = document.createElement('div');
+      container.innerHTML = '<a href="/printer.html">Identity verified</a>';
 
     x = document.querySelector(".game_title");
     if(game_over)
